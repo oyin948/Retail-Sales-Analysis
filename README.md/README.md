@@ -96,7 +96,7 @@ Key features include:
 - Sales by category
 - Interactive slicers for Year, Region, and Category
 
-![Sales Overview](./Screenshot/page1_overview.png)
+![Sales Overview](Screenshot/page1_overview.png)
 
 ### Page 2 — Product Analysis
 Focuses on product and sub-category performance.
@@ -109,7 +109,7 @@ Key features include:
 - Product-level sales details
 - Product ranking
 
-![Product Analysis](./Screenshot/page2_product_analysis.png)
+![Product Analysis](Screenshot/page2_product_analysis.png)
 
 ### Page 3 — Customer & Order Analysis
 Focuses on customer and order patterns.
@@ -125,7 +125,7 @@ Key features include:
 - Sales by shipping mode
 - Customer and segment details
 
-![Customer Analysis](./Screenshot/page3_customer_analysis.png)
+![Customer Analysis](Screenshot/page3_customer_analysis.png)
 
 ## DAX & Data Modeling
 
