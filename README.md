@@ -145,12 +145,28 @@ A dedicated Date Table was also created and related to the sales data to support
 
 ## Key Findings
 
-- Technology generated the highest sales among the three major categories.
-- Phones was the highest-selling sub-category.
-- Sales increased substantially between 2016 and 2018 after a slight decline from 2015 to 2016.
-- 2018 recorded the highest annual sales in the dataset.
-- The fourth quarter recorded the highest quarterly sales in 2018.
-- The dashboard allows users to explore these patterns interactively using slicers and filters.
+- **Overview:** $2.26M in sales across 4,922 orders and 793 customers (Jan 2015 – Dec 2018). Average order value: $459.
+- **Growth:** Sales dipped 4.3% in 2016 ($459K), then rose 30.6% in 2017 ($600K) and 20.3% in 2018 ($722K), which is 50% above 2015.
+- **Growth came from order volume, not basket size:** Orders grew 75% (947 → 1,661) while average order value fell from about $507 to $435.
+- **Categories:** Technology leads with $827K (36.6%), followed by Furniture (32.2%) and Office Supplies (31.2%).
+- **Sub-categories:** Phones ($328K, 14.5%) and Chairs ($323K, 14.3%) make up 28.8% of sales together. The four smallest sub-categories (Art, Envelopes, Labels, Fasteners) total just 2.5%.
+- **Seasonality:** Q4 brings in 38.5% of all sales, versus 15.5% in Q1. November ($350K), December ($321K) and September ($300K) are the strongest months, and February is the weakest ($59K).
+- **Regions:** West (31.4%) and East (29.6%) generate 61% of sales. South fell 32% in 2016 before recovering. Central slipped 2.8% in 2018 while every other region grew.
+- **States:** California ($446K) and New York ($306K) account for 33% of sales.
+- **Segments:** Consumer 50.8%, Corporate 30.4%, Home Office 18.8%.
+- **Shipping:** Standard Class carries 59.3% of sales, and the average delivery time is about 4 days.
+- **Products:** The top product is the Canon imageCLASS 2200 Advanced Copier ($61.6K, 2.7%). The top 10 products make up only 10.8% of sales, so revenue isn't reliant on a few items.
+
+## Recommendations
+
+- Plan stock and promotions ahead of September to December.
+- Since growth comes from more orders, test bundles or upsells to lift order value.
+- Investigate Central's 2018 slowdown.
+- Prioritize Technology, Phones and Chairs, and review the sub-categories that barely contribute.
+
+## Limitations
+
+The data has no profit, discount or quantity columns, so profitability can't be assessed.
 
 ## Skills Demonstrated
 
