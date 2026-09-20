@@ -1,8 +1,16 @@
 # Retail Sales Analysis & Interactive Power BI Dashboard
-**Business question:** Which products, regions and customer segments drive sales, and when?
+## Business Question
 
-**Headline result:** $2.26M in sales (2015–2018). Sales grew 50% from 2015 to 2018, and Q4 alone brings in 38.5% of yearly sales.
+How can retail sales data be analyzed to understand sales trends, product performance, customer patterns, and regional performance, and what insights can support better business decisions?
 
+## Headline Results
+
+- Total sales were approximately **$2.26M** across **9,800 sales records** and **4,922 unique orders**.
+- **Technology** recorded the highest sales among the three major categories.
+- **Phones** was the highest-selling sub-category.
+- Annual sales declined slightly from **2015 to 2016**, then increased substantially in **2017 and 2018**.
+- **2018 recorded the highest annual sales**, at approximately **$722K**.
+- **Q4 2018** recorded the highest quarterly sales, at approximately **$278K**.
 
 ## Project Overview
 
@@ -60,7 +68,8 @@ Dataset Source:
 
 
 ## Data Cleaning
-Python was used to validate and clean the dataset [(Python/data_cleaning.ipynb)]. The original file was left unchanged, and the cleaned version was saved as cleaned_retail_sales.csv.
+Python was used to validate and clean the dataset
+[Python/data_cleaning.ipynb] The original file was left unchanged, and the cleaned version was saved as cleaned_retail_sales.csv.
 | Check | Result | Action |
 | --- | ---: | ---: |
 | Missing values | 11 missing postal codes (all in Vermont) | Replaced with "unknown". Rows were kept because the rest of each record is valid |
@@ -68,10 +77,9 @@ Python was used to validate and clean the dataset [(Python/data_cleaning.ipynb)]
 | Text columns | Possible leading and trailing spaces | Trimmed |
 | Negative sales | None found | No action needed |
 | Duplicates | No fully duplicate rows. One pair (Row IDs 3406 and 3407) is identical except for Row ID | Both rows kept, since there is no quantity column to show whether it is a repeated purchase |
+| Sales outliers | 1,145 rows flagged by the IQR method | Kept. Sales are highly skewed (median $54 vs mean $231), so large orders are genuine values, not data-entry errors |
 
-Sales outliers
-1,145 rows flagged by the IQR method
-Kept. Sales are highly skewed (median $54 vs mean $231), so large orders are genuine values, not data-entry errors
+After cleaning, the dataset still contains 9,800 rows and 18 columns.
 
 ## Analysis Performed
 
