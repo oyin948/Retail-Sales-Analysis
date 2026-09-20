@@ -203,23 +203,11 @@ The data has no profit, discount or quantity columns, so profitability can't be 
 
 This project demonstrates practical experience with:
 
-- Data cleaning with Python
-- Data exploration
-- Power Query
-- Data modeling
-- Relationships
-- Date tables
-- DAX
-- Measures
-- Time intelligence
-- RANKX
-- Top-N analysis
-- Hierarchies
-- Drill-down and drill-up
-- Slicers and filters
-- Conditional formatting
-- Interactive dashboard design
-- Data storytelling
+- **Data cleaning with Python (pandas):** validation, missing values, duplicates, date conversion, IQR outlier checks
+- **Data modeling in Power BI:** relationships and a dedicated date table
+- **DAX:** measures, time intelligence (previous year, growth %) and RANKX for Top-N
+- **Interactive dashboard design:**  slicers, drill-down hierarchies, conditional formatting
+- **Data storytelling:**  turning sales data into a three-page dashboard with clear findings
 
 ## Project Structure
 
