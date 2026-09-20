@@ -1,4 +1,8 @@
 # Retail Sales Analysis & Interactive Power BI Dashboard
+**Business question:** Which products, regions and customer segments drive sales, and when?
+
+**Headline result:** $2.26M in sales (2015–2018). Sales grew 50% from 2015 to 2018, and Q4 alone brings in 38.5% of yearly sales.
+
 
 ## Project Overview
 
@@ -34,10 +38,26 @@ The dataset contains **9,800 retail sales records and 18 columns** covering info
 - Locations
 - Sales
 
-The dataset was cleaned and prepared before being used for analysis.
+The dataset was cleaned and prepared before being used for analysis.It covers 4,922 orders from 793 customers in the United States between January 2015 and December 2018. It contains sales values only: there are no profit, discount or quantity columns, so profitability cannot be assessed.
 
 Dataset Source:
 [https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting]
+
+**Data Dictionary**
+|Column|Descriptions |
+| --- |---: |
+|Row ID | Unique row number |
+| Order ID | Order identifier (one order can have several rows) |
+|Order Date, Ship Date | Dates the order was placed and shipped |
+|Ship Mode | Standard Class, Second Class, First Class or Same Day |
+|Customer ID, Customer Name | Customer identifiers |
+| Segment | Consumer, Corporate or Home Office |
+| Country, State, City, Postal Code, Delivery location | (United States only) |
+| Region | West, East, Central or South |
+| Product ID, Product Name | Product identifiers|
+| Category, Sub-Category | 3 categories and 17 sub-categories
+| Sales | value of the line item |
+
 
 ## Data Cleaning
 
