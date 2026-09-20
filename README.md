@@ -106,7 +106,8 @@ After cleaning, the dataset still contains 9,800 rows and 18 columns.
 - Sales by shipping mode
 
 ## Power BI Dashboard
-The Power BI report contains three analysis pages. The screenshots below show each page. To interact with the dashboard, download PowerBI/retail_sales_dashboard.pbix and open it in Power BI Desktop (free, Windows). Use the slicers and click any chart element to cross-filter the page.
+The Power BI report contains three analysis pages. The screenshots below show each page. To interact with the dashboard, download 
+![Power BI Dashboard](PowerBI/retail_sales_dashboard.pbix) and open it in Power BI Desktop (free, Windows). Use the slicers and click any chart element to cross-filter the page.
 
 ### Page 1 — Sales Overview
 Provides a high-level view of sales performance.
@@ -131,11 +132,13 @@ Focuses on product and sub-category performance.
 
 Key features include:
 - Sales by sub-category
+- Unique products 
 - Sales percentage by sub-category
 - Category and sub-category breakdown
 - Category sales trends
-- Product-level sales details
-- Product ranking
+- Interactive slicers for Category, Year,and Region
+
+**Insight:** Phones ($328K) and Chairs ($323K) are the top two sub-categories, together making up 28.8% of sales.
 
 ![Product Analysis](Screenshot/page2_product_analysis.png)
 
