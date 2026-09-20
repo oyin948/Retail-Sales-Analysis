@@ -52,7 +52,7 @@ Dataset Source:
 |Ship Mode | Standard Class, Second Class, First Class or Same Day |
 |Customer ID, Customer Name | Customer identifiers |
 | Segment | Consumer, Corporate or Home Office |
-| Country, State, City, Postal Code, Delivery location | (United States only) |
+| Country, State, City, Postal Code | Delivery location(United States only) |
 | Region | West, East, Central or South |
 | Product ID, Product Name | Product identifiers|
 | Category, Sub-Category | 3 categories and 17 sub-categories
@@ -60,22 +60,18 @@ Dataset Source:
 
 
 ## Data Cleaning
+Python was used to validate and clean the dataset [(Python/data_cleaning.ipynb)]. The original file was left unchanged, and the cleaned version was saved as cleaned_retail_sales.csv.
+| Check | Result | Action |
+| --- | ---: | ---: |
+| Missing values | 11 missing postal codes (all in Vermont) | Replaced with "unknown". Rows were kept because the rest of each record is valid |
+| Date columns | Stored as text | Converted to datetime format. No ship date falls before its order date |
+| Text columns | Possible leading and trailing spaces | Trimmed |
+| Negative sales | None found | No action needed |
+| Duplicates | No fully duplicate rows. One pair (Row IDs 3406 and 3407) is identical except for Row ID | Both rows kept, since there is no quantity column to show whether it is a repeated purchase |
 
-Python was used to clean and prepare the dataset for analysis. The cleaning process included:
-
-- Checking the dataset structure
-- Inspecting data types
-- Checking for missing values
-- Inspecting for categorical values
-- Checking for negative sales values
-- Checking for missing postal codes
-- Identifying potential numerical outliers
-- Checking for duplicate records
-- Converting date fields to appropriate date formats
-- Checking numerical fields
-- Preparing the dataset for Power BI analysis
-
-No completely duplicate rows or negative sales values were identified. Potential sales outliers were identified using IQR method but retained because an unusually high sales value does not automatically indicate a data-entry error.
+Sales outliers
+1,145 rows flagged by the IQR method
+Kept. Sales are highly skewed (median $54 vs mean $231), so large orders are genuine values, not data-entry errors
 
 ## Analysis Performed
 
