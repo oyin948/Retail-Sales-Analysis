@@ -69,7 +69,7 @@ Dataset Source:
 
 ## Data Cleaning
 Python was used to validate and clean the dataset
-[Python/data_cleaning.ipynb] The original file was left unchanged, and the cleaned version was saved as cleaned_retail_sales.csv.
+![Data Cleaning](Python/data_cleaning.ipynb) The original file was left unchanged, and the cleaned version was saved as cleaned_retail_sales.csv.
 | Check | Result | Action |
 | --- | ---: | ---: |
 | Missing values | 11 missing postal codes (all in Vermont) | Replaced with "unknown". Rows were kept because the rest of each record is valid |
@@ -106,8 +106,7 @@ After cleaning, the dataset still contains 9,800 rows and 18 columns.
 - Sales by shipping mode
 
 ## Power BI Dashboard
-
-The Power BI report contains three main analysis pages:
+The Power BI report contains three analysis pages. The screenshots below show each page. To interact with the dashboard, download PowerBI/retail_sales_dashboard.pbix and open it in Power BI Desktop (free, Windows). Use the slicers and click any chart element to cross-filter the page.
 
 ### Page 1 — Sales Overview
 Provides a high-level view of sales performance.
@@ -122,7 +121,9 @@ Key features include:
 - Top 5 products by sales
 - Sales by category
 - Interactive slicers for Year, Region, and Category
-
+  
+**Insight:** 2018 was the strongest year($722k), and Technology is a leading category(36.6% of sales)
+  
 ![Sales Overview](Screenshot/page1_overview.png)
 
 ### Page 2 — Product Analysis
