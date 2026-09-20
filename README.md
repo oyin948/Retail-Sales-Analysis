@@ -174,8 +174,6 @@ DAX was used to create reusable measures and perform calculations such as:
 
 A dedicated Date Table was also created and related to the sales data to support time-based analysis.
 
-**Skills demonstrated:** Python data cleaning, Power Query, data modeling, DAX (time intelligence, RANKX, Top-N analysis), hierarchies and drill-down, conditional formatting, and interactive dashboard design.
-
 ## Key Findings
 
 - **Overview:** $2.26M in sales across 4,922 orders and 793 customers (Jan 2015 – Dec 2018). Average order value: $459.
@@ -242,4 +240,12 @@ retail-sales-analysis/
 
 ## Conclusion
 
-This project demonstrates an end-to-end retail sales analysis workflow, from data cleaning and preparation to data modeling, analysis, visualization, and interactive dashboard development.
+Sales grew 50% between 2015 and 2018, driven by more orders rather than larger ones, with strong Q4 seasonality and Technology as the leading category. This project demonstrates an end-to-end retail sales analysis workflow, from data cleaning and preparation to data modeling, analysis, visualization, and interactive dashboard development.
+
+## Contact
+
+**Oyindamola**
+
+Email: [oladejoaisha7@gmail.com]
+
+GitHub: [oyin948](https://github.com/oyin948)  
