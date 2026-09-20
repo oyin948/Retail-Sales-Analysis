@@ -36,6 +36,9 @@ The dataset contains **9,800 retail sales records and 18 columns** covering info
 
 The dataset was cleaned and prepared before being used for analysis.
 
+Dataset Source:
+[https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting]
+
 ## Data Cleaning
 
 Python was used to clean and prepare the dataset for analysis. The cleaning process included:
