@@ -151,17 +151,17 @@ Key features include:
 - Average order value
 - Average sales per row
 - Sales by customer segment
-- Orders by region
-- Customers by region
-- Sales by shipping mode
+- Unique customer by region
+- Top 5 customers by sales 
 - Customer and segment details
+- Interactive slicers for Year, Region,and Segment
+
+**Insight:** Customers generate half of all sales(50.8%), and the top customer has spent about $25k.
 
 ![Customer Analysis](Screenshot/page3_customer_analysis.png)
 
 ## DAX & Data Modeling
-
 DAX was used to create reusable measures and perform calculations such as:
-
 - Total Sales
 - Total Orders
 - Average Order Value
@@ -173,6 +173,8 @@ DAX was used to create reusable measures and perform calculations such as:
 - Sales Growth %
 
 A dedicated Date Table was also created and related to the sales data to support time-based analysis.
+
+**Skills demonstrated:** Python data cleaning, Power Query, data modeling, DAX (time intelligence, RANKX, Top-N analysis), hierarchies and drill-down, conditional formatting, and interactive dashboard design.
 
 ## Key Findings
 
