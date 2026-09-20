@@ -30,7 +30,7 @@ The main objectives of this project were to:
 ## Tools Used
 
 - **Python** — Data validation, Data cleaning and preparation
-- **Excel** — Data inspection and preliminary analysis
+- 
 - **Power BI** — Data modeling, DAX, analysis, and visualization
 
 ## Dataset
