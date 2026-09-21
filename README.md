@@ -216,13 +216,13 @@ retail-sales-analysis/
 ├── README.md
 ├── data/
 │   └── cleaned_retail_sales.csv
-├── powerbi/
+├── powerBI/
 │   └── retail_sales_dashboard.pbix
-├── screenshots/
+├── Screenshots/
 │   ├── page1_overview.png
 │   ├── page2_product_analysis.png
 │   └── page3_customer_analysis.png
-└── python/
+└── Python/
     └── data_cleaning.ipynb
 ```
 
